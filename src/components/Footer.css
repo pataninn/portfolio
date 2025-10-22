@@ -1,0 +1,55 @@
+.contact {
+  background-color: #0f172a; 
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon-link {
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon-link:hover {
+  color: #38bdf8; 
+  transform: translateY(-5px);
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+.instagram:hover {
+  color: #e1306c;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+
+.envelope:hover{
+    color: #127CD6;
+}

@@ -1,0 +1,74 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+h1{
+  font-size: 2.5rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+    height: 10px;
+    width: 100px;
+    border-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.filling {
+  height: 100%;
+  width: 0%; 
+  background-color: #0f172a;
+  border-radius: 3px;
+  transition: width 1.5s ease-in-out;
+}
+
+  .skills li {
+    flex: 1 1 20%; 
+    text-align: center;
+    align-items: center;
+  }
+  .skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* vertically align name + bar */
+  justify-content: space-between; /* put name on left, bar on right */
+  gap: 15px;                 /* spacing between name and bar */
+  margin: 10px 0;
+  }
+
+.skillname {
+  font-weight: 500;
+  flex: 1;                   /* let name take available space */
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+   .skills {
+    flex-wrap: wrap; /* ensure wrapping works */
+    justify-content: center;
+  }
+
+  .skills li {
+    flex: 1 1 30%; /* 2 items per line */
+    text-align: center;
+  }
+  .skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* vertically align name + bar */
+  justify-content: space-between; /* put name on left, bar on right */
+  gap: 15px;                 /* spacing between name and bar */
+  margin: 10px 0;
+}
+
+.skillname {
+  font-weight: 500;
+  flex: 1;                   /* let name take available space */
+  text-align: center;
+}
+}
