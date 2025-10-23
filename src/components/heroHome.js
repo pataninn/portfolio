@@ -25,7 +25,7 @@ function heroHome() {
               Primary to Middle School — Kasetsart University Laboratory School
             </span>
             <a href='https://www.kus.ku.ac.th' target="_blank" rel="noopener noreferrer">
-            <img src="/kaset.png" alt="Kaset logo" className="school-logo" />
+            <img src="kaset.png" alt="Kaset logo" className="school-logo" />
             </a>
           </li>
           <li>            
@@ -33,7 +33,7 @@ function heroHome() {
               High School — Kamnoetvidya Science Academy
             </span>
             <a href='https://www.kvis.ac.th' target="_blank" rel="noopener noreferrer">
-            <img src="/kvis.png" alt="KVIS logo" className="school-logo" />
+            <img src="kvis.png" alt="KVIS logo" className="school-logo" />
             </a>
           </li>
           <li>
@@ -47,7 +47,7 @@ function heroHome() {
         </ul>
         </div>
             <div className="img-container">
-            <img src="\myPic.png" alt="" className="myface" />
+            <img src="myPic.png" alt="" className="myface" />
             </div>
           </div>
     </>
