@@ -18,7 +18,7 @@ function Cards() {
             <CardItem
               src='SPC.png'
               text='Designed a sensor-based device that monitors and adjusts filament extrusion in real time for precise diameter control.'
-              path='/Abstract_SPC.pdf'
+              path='Abstract_SPC.pdf'
               isPdf={true}
             />
             <CardItem
