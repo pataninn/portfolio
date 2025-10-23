@@ -1,6 +1,6 @@
 import React from 'react'
 import './heroHome.css'
-function heroHome() {
+function HeroHome() {
   return (
     <>
     <div className="aboutMe" id = 'aboutMe'>
@@ -54,4 +54,4 @@ function heroHome() {
   )
 }
 
-export default heroHome
+export default HeroHome

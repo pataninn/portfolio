@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroHome from '../heroHome'
+import HeroHome from '../HeroHome'
 import Cards from '../Cards' 
 import Skills from '../Skills'
 import Footer from '../Footer'
-function home() {
+function Home() {
   return (
     <>
         <HeroHome/>
@@ -15,4 +15,4 @@ function home() {
   )
 }
 
-export default home
+export default Home
